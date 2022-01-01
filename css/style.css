@@ -6,10 +6,10 @@ html {
   }
 
 
-span {
-    color: #037bc0;
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
 /*BOX MODEL*/
 
 .sobre-nosotros {
