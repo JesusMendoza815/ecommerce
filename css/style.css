@@ -4,7 +4,9 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
 }
-
+body {
+  font-family: 'Raleway', sans-serif;
+}
 /*GLOBALES*/
 
 a {
@@ -19,6 +21,7 @@ a {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 /*Header y navegacion*/
@@ -54,6 +57,21 @@ img {
 }
 
 /*Listado de Categorias*/
+.categorias h2 {
+  text-align: center;
+}
+
+.categoria a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.categoria a:hover {
+  background-color: #037bc0;
+  color: #fff;
+  border-bottom-right-radius: 20px;
+}
 
 .listado-categorias {
   display: grid;
