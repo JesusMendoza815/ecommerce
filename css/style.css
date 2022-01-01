@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+span {
+    color: #037bc0;
+}
+
+/*BOX MODEL*/
+
+.sobre-nosotros {
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+}
